@@ -1,0 +1,7 @@
+services:
+  cassandra:
+    image: '{imageName}'
+    ports:
+      - '9042'
+    environment:
+      - 'CASSANDRA_DC=dc1'
